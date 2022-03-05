@@ -17,7 +17,7 @@ vac_fac_travel_time
 
 -Name and the Number of vaccination facilities in USA
 
-
+Vac_fac_facilities
 
 ![image](https://user-images.githubusercontent.com/100988967/156872775-c2599430-b3e9-4b13-a6dc-f4c13a20b7bf.png)
 
@@ -25,12 +25,14 @@ vac_fac_travel_time
 
 -Number of vaccination facilities available in sub region 1 in descending order
 
+Vac_fac_sub_region
+
 ![image](https://user-images.githubusercontent.com/100988967/156872894-f99ec39f-e18b-46fa-b6f5-1d3ef8c3fa3b.png)
 
 
 -Number of vaccination facilities available in sub region 2 within a specific range from 10-100
 
-Vac_region_2
+Vac_fac_region_2
 
 ![image](https://user-images.githubusercontent.com/100988967/156873026-4e4bedea-596d-4e8f-acae-ba91153c202e.png)
 
