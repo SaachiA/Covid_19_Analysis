@@ -1,0 +1,10 @@
+Number of vaccination facilities available in sub region 2 within a specific range from 10-100
+Select 
+    facility_sub_region_2 as region,
+    count(facility_sub_region_2) as Number_of_facilities
+ FROM 
+    bigquery-public-data.covid19_vaccination_access.facility_boundary_us_all
+group by 
+    facility_sub_region_2
+having 
+     count(facility_sub_region_2) between 10 and 100
