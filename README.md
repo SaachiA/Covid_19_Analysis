@@ -58,7 +58,7 @@ Vac_fac_cases
 ![image](https://user-images.githubusercontent.com/100988967/156877128-8538f7c9-4855-4a40-8746-b8778eda7d28.png)
 
 
---Total number of confirmed cases and deaths in a region with code 12071
+--Total number of confirmed cases and deaths in a region with code 12071 on 27/10/2020
 
 Vac_fac_cases
 
