@@ -1,0 +1,8 @@
+Name and the number of vaccination facilities available in USA
+Select 
+    facility_name as FACILITY_NAME,
+    count(facility_name) as Number_of_facilities
+ FROM 
+    bigquery-public-data.covid19_vaccination_access.facility_boundary_us_all
+group by 
+    facility_name
