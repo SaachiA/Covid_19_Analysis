@@ -1,0 +1,13 @@
+--Total number of confirmed cases and deaths in a region with code 12071
+SELECT
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_name,
+ `bigquery-public-data.covid19_usafacts.deaths`._2020_10_27 as deaths,
+ `bigquery-public-data.covid19_usafacts.confirmed_cases`._2020_10_27 as total_cases
+FROM
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`
+INNER JOIN
+  `bigquery-public-data.covid19_usafacts.deaths`
+ON
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_fips_code=`bigquery-public-data.covid19_usafacts.deaths`.county_fips_code
+where 
+    `bigquery-public-data.covid19_usafacts.deaths`.county_fips_code="12071"
