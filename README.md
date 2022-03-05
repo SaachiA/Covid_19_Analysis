@@ -13,3 +13,10 @@ vac_fac_Ohio.sql
 vac_fac_travel_time
 
 ![image](https://user-images.githubusercontent.com/100988967/156872653-3cbb4827-ba30-49f0-a4cf-56a239810253.png)
+
+
+-Name and the Number of vaccination facilities in USA
+
+![image](https://user-images.githubusercontent.com/100988967/156872775-c2599430-b3e9-4b13-a6dc-f4c13a20b7bf.png)
+
+
