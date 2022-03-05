@@ -1,4 +1,4 @@
-Number of vaccination facilities available in sub region 2 within a specific range from 10-100
+--Number of vaccination facilities available in sub region 2 within a specific range from 10-100
 Select 
     facility_sub_region_2 as region,
     count(facility_sub_region_2) as Number_of_facilities
