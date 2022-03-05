@@ -1,4 +1,4 @@
-Number of facilities in sub region 2 of  Michigan in descending order
+--Number of facilities in sub region 2 of  Michigan in descending order
 select
      facility_sub_region_2 as Sub_regions_in_Michigan,
     count(facility_sub_region_2) as Number_of_facilities
