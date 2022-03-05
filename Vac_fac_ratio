@@ -1,4 +1,4 @@
---Ratio of death to confirmed cases in USA 
+--Ratio of death to confirmed cases in USA on 27/10/2020
 SELECT
   `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_name,
   round(`bigquery-public-data.covid19_usafacts.deaths`._2020_10_27/`bigquery-public-data.covid19_usafacts.confirmed_cases`._2020_10_27,5) AS ratio
