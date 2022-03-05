@@ -6,3 +6,10 @@ This details the information regarding Covid19 cases and the following vaccinati
 vac_fac_Ohio.sql
 
 ![image](https://user-images.githubusercontent.com/100988967/156872092-885b883a-c0ea-445e-8108-6c636070fd3e.png)
+
+
+- information about the facilities name where travel time threshold minutues is less than 60 in sub region 1 California
+
+vac_fac_travel_time
+
+![image](https://user-images.githubusercontent.com/100988967/156872653-3cbb4827-ba30-49f0-a4cf-56a239810253.png)
