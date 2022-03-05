@@ -1,0 +1,10 @@
+--Total number of confirmed cases and deaths in USA on date 30/10/2020
+SELECT
+  SUM(`bigquery-public-data.covid19_usafacts.confirmed_cases`._2020_10_30) AS total_cases_in_us,
+  SUM(`bigquery-public-data.covid19_usafacts.deaths`._2020_10_30) AS total_deaths_in_us
+FROM
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`
+INNER JOIN
+  `bigquery-public-data.covid19_usafacts.deaths`
+ON
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_fips_code=`bigquery-public-data.covid19_usafacts.deaths`.county_fips_code
