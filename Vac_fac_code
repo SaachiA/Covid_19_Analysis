@@ -1,4 +1,4 @@
---Total number of confirmed cases and deaths in a region with code 12071
+--Total number of confirmed cases and deaths in a region with code 12071 on 27/10/2020
 SELECT
   `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_name,
  `bigquery-public-data.covid19_usafacts.deaths`._2020_10_27 as deaths,
