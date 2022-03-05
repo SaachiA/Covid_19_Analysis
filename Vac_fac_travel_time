@@ -1,4 +1,4 @@
-extracting the information about the facilities name where travel time threshold minutues is less than 60 in sub region 1 California
+ information about the facilities name where travel time threshold minutues is less than 60 in sub region 1 California
 Select facility_name as facilities
 FROM 
 bigquery-public-data.covid19_vaccination_access.facility_boundary_us_all
