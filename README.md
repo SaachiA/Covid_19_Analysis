@@ -65,6 +65,12 @@ Vac_fac_cases
 ![image](https://user-images.githubusercontent.com/100988967/156877315-8839fa81-37ec-492e-9f08-aa4519c22f5a.png)
 
 
+--Total number of confirmed cases and deaths in USA on date 30/10/2020
+
+Vac_fac_USA
+
+![image](https://user-images.githubusercontent.com/100988967/156877448-3272ea18-d534-4591-abd8-731612879c6e.png)
+
 
 
 
