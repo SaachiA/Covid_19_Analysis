@@ -37,4 +37,12 @@ Vac_fac_region_2
 ![image](https://user-images.githubusercontent.com/100988967/156873026-4e4bedea-596d-4e8f-acae-ba91153c202e.png)
 
 
+-Number of facilities in sub region 2 of  Michigan in descending order
+
+Vac_fac_Michigan
+
+![image](https://user-images.githubusercontent.com/100988967/156873430-ce2f45a3-45df-4783-9fbb-e3d2255d6625.png)
+
+
+
 
