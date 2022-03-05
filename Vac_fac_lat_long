@@ -1,0 +1,9 @@
+--Vaccination Facility name in latitude and longitude terms 
+select facility_name
+FROM 
+    bigquery-public-data.covid19_vaccination_access.facility_boundary_us_all
+where
+    facility_longitude <=-90 and
+    facility_longitude >=-99 and 
+    facility_latitude>=30 and 
+    facility_latitude<40
