@@ -58,6 +58,13 @@ Vac_fac_cases
 ![image](https://user-images.githubusercontent.com/100988967/156877128-8538f7c9-4855-4a40-8746-b8778eda7d28.png)
 
 
+--Total number of confirmed cases and deaths in a region with code 12071
+
+Vac_fac_cases
+
+![image](https://user-images.githubusercontent.com/100988967/156877315-8839fa81-37ec-492e-9f08-aa4519c22f5a.png)
+
+
 
 
 
