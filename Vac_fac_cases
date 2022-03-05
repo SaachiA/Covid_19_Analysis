@@ -1,0 +1,12 @@
+--Ratio of death to confirmed cases in USA 
+SELECT
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_name,
+  round(`bigquery-public-data.covid19_usafacts.deaths`._2020_10_27/`bigquery-public-data.covid19_usafacts.confirmed_cases`._2020_10_27,5) AS ratio
+FROM
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`
+INNER JOIN
+  `bigquery-public-data.covid19_usafacts.deaths`
+ON
+  `bigquery-public-data.covid19_usafacts.confirmed_cases`.county_fips_code=`bigquery-public-data.covid19_usafacts.deaths`.county_fips_code
+where 
+    `bigquery-public-data.covid19_usafacts.confirmed_cases`._2020_10_27 != 0 
