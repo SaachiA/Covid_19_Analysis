@@ -1,4 +1,4 @@
-Name and the number of vaccination facilities available in USA
+--Name and the number of vaccination facilities available in USA
 Select 
     facility_name as FACILITY_NAME,
     count(facility_name) as Number_of_facilities
