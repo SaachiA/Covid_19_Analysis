@@ -51,6 +51,13 @@ Vac_fac_lat_long
 ![image](https://user-images.githubusercontent.com/100988967/156873723-fec656b8-aee7-420d-bd3b-8f0fb95cb833.png)
 
 
+--Ratio of death to confirmed cases in USA 
+
+Vac_fac_cases
+
+![image](https://user-images.githubusercontent.com/100988967/156877128-8538f7c9-4855-4a40-8746-b8778eda7d28.png)
+
+
 
 
 
